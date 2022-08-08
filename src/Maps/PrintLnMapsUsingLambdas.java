@@ -1,9 +1,8 @@
 package Maps;
 
-import java.time.LocalDate;
 import java.util.HashMap;
 
-public class PrintLnMaps {
+public class PrintLnMapsUsingLambdas {
     static HashMap<Integer,String> map = new HashMap();
     static Integer startNumber = 0;
     static Integer endNumber = 10;
