@@ -53,6 +53,7 @@ public class TransactionCalendar implements CalendarCreator{
     @Override
     public List<String> getDateTransactionsLines(Date retrieveDate) {
         List<String> sendList = new ArrayList<>();
+        sendList.add(mainMap.get(retrieveDate));
 /**This snippet will be for when you use this with a subTreeMap*/
         /*        TreeMap<String,Transaction> sendList = new TreeMap<>();
         mainMap.get(retrieveDate).forEach((key,value) -> {
